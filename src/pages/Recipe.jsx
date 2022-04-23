@@ -29,7 +29,7 @@ function Recipe() {
     }
     useEffect(()=>{
         fetchDetails();
-    },[params.name])
+    },[])
 
     
   return (
