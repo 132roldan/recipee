@@ -29,7 +29,8 @@ function Recipe() {
     }
     useEffect(()=>{
         fetchDetails();
-    },[])
+        // eslint-disable-line react-hooks/exhaustive-deps
+    },[params.name])
 
     
   return (
