@@ -29,7 +29,7 @@ function Recipe() {
     }
     useEffect(()=>{
         fetchDetails();
-        // eslint-disable-line react-hooks/exhaustive-deps
+       //eslint-disable-next-line
     },[params.name])
 
     
